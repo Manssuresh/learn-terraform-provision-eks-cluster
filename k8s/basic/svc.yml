@@ -8,7 +8,7 @@ spec:
     app: nginx
   type: ClusterIP
   ports:
-  - name: MYAPP
+  - name: nginx
     protocol: TCP
     port: 80
     targetPort: 80

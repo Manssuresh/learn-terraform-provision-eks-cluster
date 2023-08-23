@@ -19,5 +19,10 @@ service:
   type: LoadBalancer
   port: 80
 
+ingress:
+  name: nginx-ingress
+
+domain:
+  name: nginx.test.com
 
 
